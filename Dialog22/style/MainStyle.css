@@ -1,0 +1,19 @@
+.demo-layout-transparent {
+  background: url('../jpg/city.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+body{
+    margin: 10;
+    
+}
+form{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 3px double black;
+}
